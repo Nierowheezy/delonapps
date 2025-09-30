@@ -1,0 +1,1884 @@
+/* Dashboard Module colour names */
+.bronze-module {
+  border: 10px solid #ffd8a8 !important;
+}
+
+.silver-module {
+  border: 10px solid #fcc2d7 !important;
+}
+
+.gold-module {
+  border: 10px solid #d0bfff !important;
+}
+
+.platinum-module {
+  border: 10px solid #a5d8ff !important;
+}
+
+.text-red {
+  color: #fd0000 !important;
+}
+
+.bg-red {
+  background-color: #fd0000 !important;
+}
+
+.bg-gold {
+  background-color: #c7a930 !important;
+}
+.bg-grey {
+  background-color: #eaecf0 !important;
+}
+
+.text-primary-blue {
+  color: #2271b6 !important;
+}
+
+.text-primary-dark {
+  color: #202020 !important;
+}
+
+.text-202020 {
+  color: #202020 !important;
+}
+
+.text-D1D5DB {
+  color: #d1d5db !important;
+}
+
+.border-D1D5DB {
+  border-color: #d1d5db !important;
+}
+
+.text-292D32 {
+  color: #292d32 !important;
+}
+
+.text-6B7280 {
+  color: #6b7280 !important;
+}
+
+.text-111928 {
+  color: #111928 !important;
+}
+
+.bg-EAECF0 {
+  background-color: #eaecf0 !important;
+}
+
+.bg-primary-blue {
+  background-color: #2271b6 !important;
+}
+
+.border-primary-blue {
+  border: 1px solid #2271b6;
+}
+
+li.nav-item button.nav-link {
+  color: #101828;
+}
+
+.bronze-card {
+  width: 408px;
+  border-radius: 30px;
+  padding: 30px;
+  background-color: #ffd8a8;
+}
+
+.bronze-card .action-text {
+  color: red;
+  text-decoration: underline;
+}
+
+li.nav-item .active {
+  border-bottom: 2px solid #2271b6 !important;
+  color: #2271b6 !important;
+  font-weight: 700 !important;
+}
+
+.dropdown-no-arrow::after {
+  display: none !important;
+  /* hide bootstrap default arrow */
+}
+
+.px-12px {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+.fw-650 {
+  font-weight: 650 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-10 {
+  font-size: 10px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+@media (max-width: 769px) {
+  .fs-sm-18 {
+    font-size: 18px !important;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+li.page-item > a.page-link {
+  color: #6b7280;
+}
+
+.align-child-self-start:last-child {
+  align-self: flex-start;
+}
+
+.min-width-220 {
+  min-width: 210px !important;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+.status-indicator-green {
+  width: 10px;
+  height: 10px;
+  right: 5px;
+  bottom: -3px;
+  background: #2bc700;
+  border: 1.5px solid white;
+}
+
+.min-width-250 {
+  min-width: 250px;
+}
+
+.w-20 {
+  width: 20px !important;
+}
+
+.w-22 {
+  width: 22px;
+}
+
+.gold_container {
+  height: 180px;
+}
+
+@media (max-width: 1200px) {
+  .gold_container {
+    height: auto;
+  }
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.min-w-400 {
+  min-width: 400px;
+}
+
+.hr-profile-divide {
+  margin: 0.5rem 0;
+}
+
+.employee-grid-gap {
+  gap: 4rem 1rem;
+}
+
+.payslip-grid-gap {
+  gap: 5rem 5rem;
+}
+
+.payslip_table {
+  border: 1px solid #eaecf0;
+}
+
+.list-item-label {
+  font-size: 14px;
+  /* font-weight: 600; */
+  color: black;
+}
+
+.square-450 {
+  width: 450px;
+  max-width: 450px;
+}
+
+.notice-board {
+  max-width: 400px;
+  border: 2px solid red;
+  background: #ffe5e5;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/* Form controls */
+
+input.no_focus:focus {
+  outline: none !important;
+}
+
+.form-section label {
+  position: absolute;
+  left: 20px;
+  top: -10px;
+  background-color: white;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.delon-input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #c1c1c1;
+}
+
+.delon-primary-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-size: 12px !important;
+}
+
+.delon-primary-btn:disabled {
+  opacity: 0.5;
+}
+
+.input_control {
+  accent-color: #2271b6 !important;
+  padding: 10px 10px;
+}
+
+.form-floating {
+  position: relative;
+  /* margin-top: 1.5rem; */
+}
+
+.form-input {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.form-select_custom {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: transparent;
+  appearance: none;
+  background-color: white;
+}
+
+.form-select_custom_email {
+  width: 100%;
+  padding: 14px;
+  font-size: 12px !important;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: transparent;
+  appearance: none;
+  background-color: white;
+}
+
+/* .form-input:focus {
+  outline: 2px solid #2271b6;
+  outline: 2px solid #2271b6;
+} */
+
+.form-floating > label {
+  position: absolute;
+  height: 5px;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  color: #000;
+  font-size: 14px;
+  font-family: "Nunito";
+
+  pointer-events: none;
+  transition: 0.2s ease all;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1 !important;
+
+  span {
+    color: #fd0000 !important;
+  }
+}
+
+.form-input:focus + label span,
+.form-input:not(:placeholder-shown) + label span {
+  color: #fd0000 !important;
+}
+
+.form-input:focus + label,
+.form-input:not(:placeholder-shown) + label {
+  z-index: 1 !important;
+}
+
+.form-input:focus + label span,
+.form-input:not(:placeholder-shown) + label span {
+  color: #fd0000 !important;
+}
+
+.form-input:focus + label,
+.form-input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 14px;
+  color: #333;
+  transform: translateY(-50%) scale(1);
+}
+
+.form-select_custom:focus + label,
+.form-select_custom:not([value=""]) + label {
+  top: 0;
+  font-size: 14px;
+  color: #333;
+  transform: translateY(-50%) scale(1);
+}
+
+.add_employee_width #custom_select_new {
+  font-size: 14px !important;
+  margin-left: 20px;
+}
+
+.add_employee_width #multiple-select-field {
+  font-size: 14px !important;
+  margin-left: 20px;
+}
+
+#multiple-select-field {
+  font-size: 10px;
+  height: 150px;
+}
+
+#multiple-select-field-email {
+  font-size: 12px !important;
+  margin-left: 20px;
+}
+
+#multiple-select-field-email {
+  font-size: 10px !important;
+  height: 50px;
+}
+
+.form-select_custom:focus + label span,
+.form-select_custom:not(:placeholder-shown) + label span {
+  color: #fd0000 !important;
+  .form-select_custom:focus + label span,
+  .form-select_custom:not(:placeholder-shown) + label span {
+    color: #fd0000 !important;
+  }
+
+  .form-check-input:checked {
+    background-color: #2271b6;
+    border-color: #2271b6;
+  }
+
+  /* Form controls */
+
+  /* Modals */
+
+  .modal-responsive-width {
+    max-width: 485px;
+  }
+  /* Modals */
+
+  .dashboard_module_card {
+    box-shadow: "4px 4px 10px 0px #00000040" !important;
+  }
+
+  .dynamic_responsive_table {
+    width: 950px;
+  }
+
+  @media (max-width: 1100px) {
+    .dynamic_responsive_table {
+      width: 100%;
+    }
+    width: 100%;
+  }
+}
+
+/* Styling for Create Payslip (individual) Page */
+/* Styling for Create Payslip (individual) Page */
+.create_payslip_form {
+  display: flex;
+  width: 900px;
+}
+
+.create_payslip_form > div:first-child {
+  flex-basis: 300px;
+}
+
+.create_payslip_form > div:nth-child(2) {
+  flex-basis: auto;
+}
+
+@media (min-width: 769px) and (max-width: 1040px) {
+  .create_payslip_form {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .create_payslip_form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .create_payslip_form > div:first-child {
+    flex-basis: auto;
+    margin-bottom: 30px;
+  }
+
+  .create_payslip_form > div:nth-child(2) {
+    border: 0 !important;
+  }
+}
+
+.tab_indicator {
+  position: relative;
+}
+
+.tab_indicator.selected .center_spot {
+  background-color: #2271b6;
+}
+
+.tab_indicator.selected > div:first-child {
+  background: #2271b6;
+}
+
+.tab_indicator > div {
+  width: 20px;
+  height: 20px;
+  background: #d9d9d9;
+  border-radius: 100%;
+  position: relative;
+  padding: 3px;
+}
+
+/* This is the vertical connector */
+.tab_indicator:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: -24.5px;
+  left: 10px;
+  height: 25px;
+  width: 1px;
+  background: #d9d9d9;
+}
+
+.tab_indicator.active > div {
+  background: #2271b6 !important;
+}
+
+.tab_indicator .center_spot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.tab_indicator.active .center_spot {
+  background-color: white;
+}
+
+.tab_link {
+  color: #989898;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.tab_link:hover {
+  color: #202020;
+}
+
+.tab_link .tab_text.active {
+  color: black !important;
+}
+
+.demarcator_line {
+  background: #2271b6;
+  height: 1px;
+  width: 100%;
+}
+
+/* For tooltip styling */
+.tooltip-inner {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ccc;
+  padding: 8px;
+  max-width: 200px;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before,
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before,
+.tooltip.bs-tooltip-start .tooltip-arrow::before,
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+  border-top-color: #fff !important;
+  border-bottom-color: #fff !important;
+  border-left-color: #fff !important;
+  border-right-color: #fff !important;
+}
+
+/* For tooltip styling */
+
+.activity_log_namebox {
+  color: #202020;
+  background-color: #f9fafb;
+  width: 164;
+  height: 27;
+  border-radius: 4px;
+  gap: 10px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border: 1px solid #d1d5db;
+}
+
+/* Styling for Create Payslip (individual) Page */
+/* Styling for Create Payslip (individual) Page */
+
+.contactUsModal {
+  width: 100%;
+  height: 100%;
+}
+
+/* Borders */
+@media (min-width: 992px) {
+  .border-lg-0 {
+    border: 0 !important;
+  }
+}
+
+/* Borders */
+
+/* Fonts */
+
+/* ------- Acme ------- */
+@font-face {
+  font-family: "Acme";
+  src: url("../fonts/Acme/Acme-Regular.ttf") format("truetype");
+  /* font-weight: 700; */
+  font-style: normal;
+}
+
+/* ------- Nunito ------- */
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito/Nunito-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+/* ------- Avenir ------- */
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_lt_std/Avenir_LT_Std_35_Light.otf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_lt_std/Avenir_LT_Std_45_Book.otf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_lt_std/Avenir_LT_Std_85_Heavy.otf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ------- Avenir ------- */
+
+/* ------- Ubuntu ------- */
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/ubuntu/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ------- Ubuntu ------- */
+
+body {
+  --primary-dark-text: #202020;
+  font-family: "Nunito", sans-serif !important;
+
+  color: var(--primary-dark-text);
+}
+
+.row_adjustment {
+  margin-left: -1.5rem !important;
+  margin-right: -1.5rem !important;
+}
+
+.font-ubuntu {
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+
+.font-ubuntu-bold {
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.font-avenir-bold {
+  font-family: "Avenir";
+  font-weight: 700;
+}
+.font-avenir {
+  font-family: "Avenir";
+  font-weight: normal;
+}
+
+.font-acme-bold {
+  font-family: "Acme";
+  font-weight: 700;
+}
+.font-acme {
+  font-family: "Acme";
+  font-weight: 400;
+}
+
+.font-nunito-bold {
+  font-family: "Nunito-Bold";
+  font-weight: 700;
+}
+.font-nunito {
+  font-family: "Nunito";
+  font-weight: 400;
+}
+
+.initialize {
+  width: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Fonts */
+
+/* --------------- Screen ------------------ */
+
+@media (min-width: 1440px) {
+  .screenFrame {
+    --screenContentWidth: 1690px;
+    padding-left: calc((100vw - var(--screenContentWidth)) / 2);
+    padding-right: calc((100vw - var(--screenContentWidth)) / 2);
+  }
+}
+
+/* --------------- Screen ------------------ */
+
+.search-input {
+  background-image: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/search.svg");
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-left: 35px;
+}
+
+.search-width {
+  width: 300px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #2271b6 !important;
+  border-color: #2271b6;
+  color: #fff;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 750px) {
+  .search-width {
+    width: 100%;
+  }
+
+  .responsive {
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
+
+/* create offer styling */
+.create_payslip_form {
+  display: flex;
+  width: 900px;
+}
+
+.create_payslip_form > div:first-child {
+  flex-basis: 300px;
+}
+
+.create_payslip_form > div:nth-child(2) {
+  flex-basis: auto;
+}
+
+@media (min-width: 769px) and (max-width: 1040px) {
+  .create_payslip_form {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .create_payslip_form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .create_payslip_form > div:first-child {
+    flex-basis: auto;
+    margin-bottom: 30px;
+  }
+
+  .create_payslip_form > div:nth-child(2) {
+    border: 0 !important;
+  }
+}
+
+.tab_indicator {
+  position: relative;
+}
+
+.tab_indicator > div {
+  width: 20px;
+  height: 20px;
+  background: #d9d9d9;
+  border-radius: 100%;
+  position: relative;
+  padding: 3px;
+}
+
+.tab_indicator:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: -24.5px;
+  left: 10px;
+  height: 25px;
+  width: 1px;
+  background: #d9d9d9;
+}
+
+.tab_indicator.active > div {
+  background: #2271b6 !important;
+}
+
+.tab_indicator .center_spot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.tab_indicator.active .center_spot {
+  background-color: white;
+}
+
+.tab_link {
+  color: #989898;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.tab_link:hover {
+  color: #202020;
+}
+
+.tab_link .tab_text.active {
+  color: black !important;
+}
+
+.demarcator_line {
+  background: #2271b6;
+  height: 1px;
+  width: 100%;
+}
+
+.demarcator_line_dashed {
+  /* background: #2271b6; */
+  /* height: 1px; */
+  width: 100%;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  border-top: 2px solid #2271b6;
+  border-style: dashed;
+}
+
+/* For tooltip styling */
+.tooltip-inner {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ccc;
+  padding: 8px;
+  max-width: 200px;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before,
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before,
+.tooltip.bs-tooltip-start .tooltip-arrow::before,
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+  border-top-color: #fff !important;
+  border-bottom-color: #fff !important;
+  border-left-color: #fff !important;
+  border-right-color: #fff !important;
+}
+/* For tooltip styling */
+
+/* Preview image */
+.preview-img {
+  max-width: 854px;
+}
+
+.upload_offer {
+  width: 75%;
+}
+
+@media (max-width: 769px) {
+  .preview-img {
+    width: 100%;
+  }
+  .upload_bucket_panel {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .upload_offer {
+    width: 100%;
+  }
+}
+
+.upload_bucket_panel {
+  width: 420px;
+  height: 170px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+/* create offer width */
+
+.offer_breakdown_width {
+  width: 404px;
+}
+@media (max-width: 769px) {
+  .offer_breakdown_width {
+    width: 100%;
+  }
+}
+/* white button */
+
+.white_button {
+  background: white;
+  color: #2271b6 !important;
+  border: 1.5px solid #2271b6 !important;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* calculate taxes input field */
+
+.calculate_tax_input {
+  width: 630px;
+}
+.calculate_tax_indicator {
+  width: 120px;
+}
+
+.calculate_tax_button {
+  width: 101px;
+}
+
+.calculate_tax_calculate {
+  width: 200px;
+}
+
+.calculate_ans {
+  padding-left: 15px;
+  border-left: 6px solid #2271b6;
+}
+
+.calculate_tax {
+  padding-left: 15px;
+  border-left: 6px solid #ffffff;
+}
+
+.fw-350 {
+  font-weight: normal !important;
+}
+
+.calculate_free_tax_input {
+  width: 500px;
+}
+
+.free_calculate_tax_input {
+  width: 500px;
+}
+
+.free_tax_title {
+  width: 50%;
+}
+
+.free_tax_title h1 {
+  line-height: 1.6;
+}
+
+.second_column {
+  max-height: 650px;
+}
+
+.second_column_bottom {
+  max-height: 480px;
+}
+
+.form_width {
+  width: 50%;
+}
+.form_width_form {
+  width: 560px;
+}
+.form_width img {
+  width: 732px;
+}
+
+.first_column {
+  height: 1400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow: visible;
+  width: 660px;
+}
+
+.tax_fixed_footer {
+  /* position: sticky; */
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+
+  padding: 20px 0;
+}
+
+@media (max-width: 769px) {
+  .calculate_tax_input,
+  .calculate_tax_indicator,
+  .calculate_tax_calculate,
+  .calculate_free_tax_input,
+  .free_tax_title,
+  .form_width,
+  .form_width_form {
+    width: 100%;
+  }
+
+  .second_column {
+    max-height: 100%;
+  }
+
+  .free_calculate_tax_input {
+    width: 80%;
+  }
+
+  .form_width img {
+    width: 100%;
+  }
+
+  .free_tax_title h1 {
+    font-size: 22px !important;
+  }
+}
+
+/* bootstrap tooltip left alignment */
+
+.tooltip-left-align .tooltip-inner {
+  text-align: left;
+}
+
+.tooltip-width .tooltip-inner {
+  min-width: 400px !important;
+}
+
+/* calculate taxes input field */
+
+.expense_input {
+  width: 344px;
+}
+
+.upload_bucket_expense {
+  width: 344px;
+  height: 170px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+.expense_request_doc {
+  border-radius: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+@media (max-width: 769px) {
+  .expense_input {
+    width: 100%;
+  }
+  .upload_bucket_expense {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* employeement management */
+
+.bulk_input {
+  width: 407px;
+}
+
+.upload_bulk {
+  width: 407px;
+  height: 197px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+.employment_status_width {
+  width: 50%;
+}
+
+.add_employee_width {
+  width: 344px;
+}
+
+.upload_employee_panel {
+  width: 344px;
+  height: 170px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+.multiple-select-field {
+  position: absolute;
+  top: 10% !important;
+}
+
+@media (max-width: 769px) {
+  .bulk_input {
+    width: 100%;
+  }
+  .upload_bulk {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .employment_status_width {
+    width: 100%;
+  }
+  .add_employee_width {
+    width: 100%;
+  }
+}
+
+/* national holiday accordion */
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
+/* Expense retirement history */
+
+.expense_retirement_input {
+  width: 801px;
+}
+
+.approved_bg {
+  background-color: #2271b61a;
+}
+.pending_bg {
+  background-color: #b6b0001a;
+}
+.rejected_bg {
+  background-color: #fd00001a;
+}
+
+.breakdown_line {
+  width: 310px;
+  background-color: #000;
+  height: 2px;
+}
+
+.expense_employer_title {
+  width: 500px;
+}
+
+.upload_bucket_expense_retirement {
+  width: 801px;
+  height: 170px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+.upload_bucket_expense_accordion {
+  height: 170px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+.border_color_red {
+  border: 1px solid red;
+}
+
+@media (max-width: 769px) {
+  .expense_retirement_input {
+    width: 100%;
+  }
+
+  .upload_bucket_expense_retirement {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .expense_employer_title {
+    width: 100%;
+  }
+}
+
+/*  Create Offer  */
+
+.offer_breakdown_w {
+  width: 508px;
+}
+
+.view_offer_breakdown {
+  width: 809px;
+}
+@media (max-width: 769px) {
+  .offer_breakdown_w {
+    width: 100%;
+  }
+
+  .view_offer_breakdown {
+    width: 100%;
+  }
+}
+
+/* clock in clock out */
+
+.clock_in_out {
+  background-color: #eaecf0;
+  width: 741px;
+  border-radius: 16px;
+}
+
+.clock_in_out_border {
+  border-radius: 16px;
+}
+
+.clock_in_out_bg {
+  background-color: #eaecf0;
+  border-radius: 16px;
+}
+
+.clock_in_out_border_left {
+  border-left: 1px solid #989898;
+}
+
+.clock_in_out_width {
+  width: 329px;
+}
+
+.clock_in_time {
+  border: 3px solid #2271b6;
+}
+
+.clock_border_left {
+  width: 1px;
+  background-color: #989898;
+}
+
+.clock_out_time {
+  border: 3px solid #c7a930;
+}
+
+.clock_out_bg {
+  background-color: #c7a930;
+}
+
+.clock_in_bg {
+  background-color: #75abda !important;
+}
+
+.text_sec {
+  color: #20202069;
+}
+
+@media (max-width: 769px) {
+  .clock_in_out {
+    width: 100%;
+  }
+
+  .clock_in_out_width {
+    width: 100%;
+  }
+}
+
+/* sticker header */
+.sticky_header {
+  position: sticky;
+  top: 0;
+}
+
+/* send and sign */
+.upload_offer_bg {
+  background-color: rgba(34, 113, 182, 0.2) !important;
+  border-radius: 20px;
+}
+
+.upload_offer_bg .nav-link {
+  color: rgba(32, 32, 32, 1) !important;
+}
+.upload_offer_bg .active {
+  background-color: #2271b6 !important;
+  border-radius: 20px;
+}
+
+ul.upload_offer_bg li.nav-item .active {
+  color: #fff !important;
+  font-weight: normal !important;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.download_sample {
+  border-radius: 15px;
+  border: 2px solid #c1c1c1;
+}
+
+.text_underline {
+  text-decoration: underline;
+}
+
+/* Sigin In Section */
+.sign_in_img_bg {
+  background-color: rgba(236, 241, 245, 1);
+}
+
+.sign_in_img_bg h1 {
+  width: 60%;
+}
+
+.sign_in_input {
+  width: 381px;
+}
+
+.toggle_password {
+  position: relative;
+}
+
+.toggle_password span {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.sign_area {
+  width: 50%;
+}
+
+@media (max-width: 769px) {
+  /* .sign_logo {
+    width: 160px !important;
+  } */
+
+  .sign_in_input {
+    width: 345px;
+  }
+
+  .sign_area {
+    width: 100%;
+  }
+}
+
+/* Sign up section */
+.step-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-active,
+.step-complete {
+  background-color: #2271b6;
+}
+
+.white_button_signup {
+  background: white;
+  color: #2271b6 !important;
+  border: 1.5px solid #2271b6 !important;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.step-line {
+  width: 108px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.form-step {
+  animation: fadeIn 0.4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.step-circle .progress_inner {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #fff !important;
+
+  border-radius: 50%;
+}
+
+.btn-check:checked + .btn-outline-secondary {
+  background-color: transparent;
+  color: #131212;
+  border: 2px solid;
+
+  border-color: #2271b6;
+}
+
+.form-check-input:checked {
+  background-color: #2271b6;
+}
+
+.fixed-footer {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+
+  padding: 20px 0;
+}
+
+.first_login {
+  width: 100%;
+}
+
+/* on off boarding */
+.upload_bulk_status {
+  width: auto;
+  height: 197px;
+  border-radius: 10px;
+  gap: 10px;
+  border: 2px dashed #c1c1c1;
+}
+
+.clock_in_out_modal {
+  background-color: #eaecf0;
+  width: auto;
+  border-radius: 16px;
+}
+
+/* leave management */
+.leave_policy {
+  width: 803px;
+}
+
+@media (max-width: 769px) {
+  .leave_policy {
+    width: 100%;
+  }
+}
+
+/* subscription */
+.subscription_tab {
+  border-bottom: 1px solid lightgray;
+}
+
+.subscription_tab .nav-link {
+  color: #101828 !important;
+}
+.subscription_tab .active {
+  color: #2271b6 !important;
+
+  border-bottom: 1px solid lightgray;
+}
+
+ul.subscription_tab li.nav-item .active {
+  color: #2271b6 !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  border-bottom: 0.5px solid #2271b6 !important;
+  font-weight: normal !important;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.add_new_card {
+  width: 213px;
+  height: auto;
+  border-radius: 10px;
+
+  border: 1px dashed #2271b6;
+}
+
+.subscription_tab_width {
+  width: 248px;
+}
+
+@media (max-width: 769px) {
+  .subscription_tab_width {
+    width: 100%;
+  }
+}
+
+.email_nav button.active {
+  background-color: #2271b6 !important;
+}
+
+/* appraisal */
+.appraisal_details {
+  background-color: #eaecf0;
+  /* width: 741px; */
+  border-radius: 16px;
+}
+
+.aggregation_width {
+  border-radius: 15px;
+  border: 2px solid #c1c1c1;
+  width: 437px;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.self_appraisal_info {
+  background-color: #eaecf0;
+  width: 344px;
+  border-radius: 16px;
+}
+
+@media (max-width: 769px) {
+  .aggregation_width {
+    width: 100%;
+  }
+}
+
+/* payslip UK  */
+.payslip_table_width {
+  width: 70%;
+}
+
+@media (max-width: 769px) {
+  .payslip_table_width {
+    width: 100%;
+  }
+}
+
+/* Help section */
+.help_width {
+  width: 906px;
+}
+.help_accordion_width {
+  width: 400px;
+}
+
+#helpAccordion .accordion-button::after {
+  filter: brightness(1) invert(0);
+}
+
+@media (max-width: 769px) {
+  .help_width,
+  .help_accordion_width {
+    width: 100%;
+  }
+}
+
+/* payroll bank*/
+
+/* Remove Bootstrap's default focus outline and any custom blue borders */
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus,
+.form-input:focus,
+.form-select_custom:focus,
+.form-select_custom_email:focus,
+.input_control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #c1c1c1 !important; /* Revert to your default border color */
+}
+
+/* Ensure no focus outline for inputs with .no_focus class */
+.no_focus:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #c1c1c1 !important; /* Revert to your default border color */
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.hover-card {
+  display: none;
+  position: absolute;
+  width: 250px; /* Adjust based on your needs */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  top: -120px; /* Position above the icon */
+  left: -80px; /* Adjust to align with the icon */
+  font-size: 12px;
+}
+
+.tooltip-container:hover .hover-card {
+  display: block;
+}
+
+.card-content div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.card-content img {
+  width: 16px; /* Match the size of your icons */
+  height: 16px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+.deduction-tooltip-container {
+  position: relative;
+}
+
+.deduction-tooltip-card {
+  display: none;
+  position: absolute;
+  width: 250px; /* Consistent width */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  top: -100px; /* Position above the icon, adjust as needed */
+  left: -150px; /* Adjust to align with the icon, tweak based on layout */
+  font-size: 12px;
+}
+
+.deduction-tooltip-container:hover .deduction-tooltip-card {
+  display: block;
+}
+
+.deduction-tooltip-content {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  gap: 5px;
+}
+
+.deduction-tooltip-content p {
+  margin: 0;
+  color: #333; /* Consistent text color */
+}
+
+/* Ensure all relevant parents allow overflow */
+.vstack,
+.row,
+.calculate_tax_indicator {
+  overflow: visible;
+  position: relative;
+}
+
+/* Hide elements with the hidden class */
+.hidden {
+  display: none !important;
+}
+
+/* Style inputs in Contract mode bottom card */
+#contract-results .calculate_tax_calculate {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 150px;
+}
+
+/* Shrink top card in Contract mode */
+#top-card.contract-mode {
+  max-height: 100px !important; /* Fit ANS field */
+  min-height: auto !important;
+  height: auto !important;
+}
+
+/* Tighten second_column in Contract mode */
+.second_column.contract-mode {
+  max-height: none !important; /* Remove 600px constraint */
+  gap: 0.25rem !important; /* Tight gap to pull bottom card up */
+}
+
+/* Pull up Contract bottom card */
+#contract-results {
+  margin-top: 0.25rem !important;
+}
+
+/* Smooth transitions */
+#top-card {
+  transition: padding 0.3s ease, max-height 0.3s ease;
+}
+.second_column {
+  transition: gap 0.3s ease, max-height 0.3s ease;
+}
+
+.annual-rent-tooltip-container {
+  margin-left: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 769px) {
+  #top-card.contract-mode {
+    padding: 0.3rem !important;
+    max-height: 80px !important;
+  }
+  #contract-results {
+    margin-top: 0.1rem !important;
+  }
+  .second_column.contract-mode {
+    gap: 0.1rem !important;
+  }
+}
+
+#right-col.contract-mode {
+  justify-content: flex-start !important;
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 769px) {
+  /* First Column - Input Widths */
+  .free_calculate_tax_input {
+    width: 100% !important; /* Full width for inputs */
+    max-width: 100%; /* Prevent overflow */
+  }
+
+  .calculate_tax_indicator {
+    width: auto !important; /* Allow icons to fit naturally */
+    min-width: 60px; /* Ensure icons don't collapse too much */
+    justify-content: flex-end; /* Align icons to the right */
+  }
+
+  .first_column {
+    width: 100% !important; /* Full width for the first column */
+    height: auto !important; /* Allow height to adjust based on content */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding: 1rem; /* Consistent padding */
+  }
+
+  /* Second Column - Height and Spacing */
+  .second_column {
+    max-height: none !important; /* Remove height restriction */
+    height: auto !important; /* Allow natural height */
+    padding: 1rem; /* Consistent padding */
+  }
+
+  .second_column_bottom {
+    max-height: none !important; /* Remove height restriction */
+    height: auto !important; /* Allow natural height */
+    padding: 1.5rem; /* Slightly more padding for better spacing */
+  }
+
+  /* Adjust input widths in the second column */
+  .calculate_tax_calculate {
+    width: 100% !important; /* Full width for result inputs */
+    max-width: 150px; /* Cap width for readability */
+  }
+
+  /* Ensure the table in the second column is responsive */
+  .table-responsive {
+    overflow-x: auto; /* Allow horizontal scrolling for the table if needed */
+    width: 100%;
+  }
+
+  /* Adjust font sizes for better readability on mobile */
+  .fs-16 {
+    font-size: 14px !important; /* Slightly smaller headings */
+  }
+
+  .fs-14 {
+    font-size: 12px !important; /* Smaller subtext */
+  }
+
+  .fs-12 {
+    font-size: 11px !important; /* Smaller input text */
+  }
+
+  /* Fix tooltip positioning to prevent overflow */
+  .hover-card,
+  .deduction-tooltip-card {
+    left: -50px; /* Adjust to prevent overflow */
+    width: 200px; /* Slightly smaller tooltips for mobile */
+    top: -150px; /* Ensure tooltips don't get cut off */
+  }
+
+  /* Adjust button size for mobile */
+  .delon-primary-btn {
+    width: 100%; /* Full-width button */
+    max-width: 200px; /* Cap button width */
+    padding: 8px 16px; /* Slightly smaller padding */
+  }
+
+  /* Ensure the layout stacks properly */
+  .d-flex.flex-column.flex-lg-row {
+    flex-direction: column !important; /* Stack columns vertically */
+  }
+
+  /* Adjust padding for the main container */
+  .d-flex.flex-column.gap-4.p-5.px-3.px-lg-4 {
+    padding: 1rem !important; /* Reduce padding for mobile */
+  }
+}
+
+/* Ensure tooltips are visible and don't cause overflow on all screens */
+.tooltip-container,
+.deduction-tooltip-container {
+  z-index: 1000; /* Ensure tooltips are above other elements */
+}
+
+/* Smooth transitions for height changes */
+.first_column,
+.second_column,
+.second_column_bottom {
+  transition: height 0.3s ease, padding 0.3s ease;
+}
