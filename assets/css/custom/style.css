@@ -79,6 +79,12 @@ h1,
   font-size: 40px;
 }
 
+.hero-title2 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+}
+
 h2,
 .subheadline {
   font-family: "Acme", sans-serif;
@@ -716,69 +722,71 @@ h5,
 /* hero section */
 /* hero section */
 /* hero section */
+/* hero section */
 .header-section {
-  background-color: #010b26;
+  background: url("../../images/home-page-images/delonapps-hero-image.png")
+    no-repeat center center;
+  background-size: cover;
   color: white;
-  padding: 2rem 0; /* Reduced padding for mobile */
+  padding: 2rem 0;
   position: relative;
   overflow: hidden;
-  min-height: 250px; /* Adjusted for mobile */
+  min-height: 250px;
 }
 
 .header-content {
   position: relative;
   z-index: 1;
   padding-left: 0.5rem;
-  max-width: 100%; /* Ensure content doesn’t exceed container */
+  max-width: 100%;
 }
 
-.header-image {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50%; /* Reduced width for mobile */
-  height: 100%;
-  background: url("../../images/home-page-images/delonapps-hero-image.png")
-    no-repeat right center;
-  background-size: cover;
-  -webkit-clip-path: ellipse(50% 72% at 81% 35%);
-  clip-path: ellipse(50% 72% at 81% 35%);
-  z-index: 0;
+.header-content .hero-title2 {
+  margin-bottom: 1.5rem; /* Space below the h1 */
+}
+
+.header-content .subheadline2 {
+  margin-bottom: 1.5rem; /* Space below the p */
+}
+
+.header-content .btn {
+  margin-top: 1.5rem; /* Space above the button to match the gap */
 }
 
 @media (min-width: 768px) {
   .header-section {
     padding: 6rem 0;
-    min-height: 500px; /* Original height for desktop */
+    min-height: 500px;
   }
 
-  .header-image {
-    width: 70%; /* Original desktop width */
+  .header-content {
+    max-width: 50%; /* Limit text width to half on desktop */
   }
 }
 
 @media (max-width: 767px) {
   .header-section {
-    padding: 1rem 0; /* Further reduced padding for mobile */
-    min-height: 200px; /* Adjusted for mobile screen */
+    padding: 1rem 0;
+    min-height: 200px;
   }
 
   .header-content {
-    padding-left: 0.5rem; /* Keep some padding */
-    text-align: left; /* Maintain left alignment */
-    max-width: 60%; /* Limit text width to match image column */
+    padding-left: 0.5rem;
+    text-align: left;
+    max-width: 60%; /* Adjusted for mobile */
   }
 
-  .header-image {
-    width: 40%; /* Smaller width to fit mobile side by side */
-    height: 80%; /* Reduced height to fit mobile */
-    background-position: center; /* Center the image on mobile */
-    -webkit-clip-path: ellipse(
-      70% 47% at 71% 45%
-    ); /* Adjusted clipping for mobile */
-    clip-path: ellipse(70% 47% at 71% 45%); /* Centered oval for mobile */
+  .hero-title2 {
+    font-size: 26px; /* Adjusted for mobile */
   }
 }
+
+/* Ensure text is readable over the image */
+.header-content h1,
+.header-content p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Optional: Add shadow for readability */
+}
+/* hero section */
 /* hero section */
 
 /* Why HRPayHub Section - Feature Cards */
