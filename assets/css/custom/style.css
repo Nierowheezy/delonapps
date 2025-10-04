@@ -154,6 +154,12 @@ h4,
   font-size: 24px;
 }
 
+.subtitle-22 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
 h5,
 .subheading {
   font-family: "Nunito", sans-serif;
@@ -339,6 +345,7 @@ h5,
 /******* Navigation Bar Styling *******/
 
 /* Navigation Bar Styling */
+
 .navbar-nav .nav-link {
   font-family: "Nunito", sans-serif;
   font-weight: 700 !important;
@@ -351,7 +358,7 @@ h5,
 }
 
 .navbar-brand img {
-  height: 40px;
+  height: 60px;
 }
 
 .navbar-nav .nav-link {
@@ -391,6 +398,12 @@ h5,
 .navbar-nav {
   flex-grow: 1;
   justify-content: flex-end; /* push navs to the right */
+}
+
+.navbar-toggler {
+  border: none; /* removes the border */
+  box-shadow: none; /* removes any shadow if present */
+  background: transparent; /* optional, makes it fully clean */
 }
 
 /* Dropdown and Submenu Styles */
@@ -2413,8 +2426,10 @@ th {
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  min-height: 260px;
-  display: block;
+  min-height: 330px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2436,38 +2451,29 @@ th {
   position: relative;
   z-index: 2;
   color: #fff;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  flex: 1;
   padding: 1.5rem;
 }
 
 /* typography / button */
 .service-card h5 {
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .service-card p {
-  flex-grow: 1; /* ✅ stretches to fill space */
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-  line-height: 1.4;
+  flex-grow: 0; /* paragraph only takes its natural height */
+  margin-bottom: 1.5rem; /* smaller consistent gap */
+}
+
+.service-card .spacer {
+  flex-grow: 1; /* this will take remaining space */
 }
 
 .service-card .btn {
-  margin-top: auto; /* ✅ pins button to bottom */
-  background-color: var(--hrp-primary);
-  border: none;
-  font-size: 0.9rem;
-  padding: 0.42rem 0.9rem;
-}
-
-.service-card .btn {
-  background-color: var(--hrp-primary);
-  border: none;
-  font-size: 0.9rem;
-  padding: 0.42rem 0.9rem;
+  margin-top: 0; /* button sits at bottom thanks to spacer */
 }
 
 /* responsive heights */
@@ -2478,7 +2484,7 @@ th {
 }
 @media (min-width: 1200px) {
   .service-card {
-    min-height: 340px;
+    min-height: 300px;
   }
 }
 
@@ -2613,31 +2619,44 @@ th {
 /* why chhose delon apps */
 
 /* video section delon apps */
+/* video section delon apps */
 .video-container {
   -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
   padding: 10px 0;
 }
+
 .video {
   flex: 0 0 auto;
   border-radius: 10px;
   overflow: hidden;
+  min-width: 400px; /* wider than before */
 }
-.video-img-top {
+
+.video iframe {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
   display: block;
+  border: none;
+  border-radius: 10px;
 }
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
-  .video[style*="350px"] {
-    min-width: 300px; /* Reduce wider images on mobile */
+  .video {
+    min-width: 300px;
   }
-  .video[style*="300px"] {
-    min-width: 250px; /* Reduce middle images on mobile */
+  .video iframe {
+    height: 170px;
   }
 }
+
 /* video section delon apps */
+
+/* get in touch delon apps */
+.space-get-intouch {
+  margin-top: 2rem;
+}
+/* get in touch delon apps */
 
 /* Media query for 1399px and below */
 @media (max-width: 1199.98px) {
@@ -2881,9 +2900,10 @@ th {
   }
 
   /* Image Size Adjustments */
-  .navbar-brand img {
-    height: 30px; /* Reduced from 40px */
-  }
+  /* .navbar-brand img {
+    height: 30px; 
+    
+  } */
 
   .logo-item img {
     max-height: 40px; /* Reduced from 60px */
@@ -3220,6 +3240,11 @@ th {
 
   .text-align-left {
     text-align: left;
+  }
+
+  .our-mission-icon,
+  .our-vision-icon {
+    width: 40px;
   }
 }
 
