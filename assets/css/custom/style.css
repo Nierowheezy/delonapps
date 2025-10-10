@@ -154,6 +154,12 @@ h4,
   font-size: 24px;
 }
 
+.subtitle-18 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .subtitle-22 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -2589,6 +2595,106 @@ th {
   background-image: url("../../images/home-page-images/card15.png");
 }
 
+/* modal styles */
+/* Modal styling */
+/* Modal styling */
+
+.modal-dialog {
+  overflow: visible !important;
+}
+.modal-content {
+  background-color: #0f3250;
+  width: 90%;
+  border-radius: 1.5rem !important; /* Increase for more rounding */
+  border: none !important; /* Remove border */
+}
+
+.modal-header {
+  background-color: #0f3250; /* Dark blue for header */
+  border-bottom: none !important; /* Remove default border */
+  padding: 2rem 2rem 0 2rem; /* Existing padding */
+  display: flex;
+  justify-content: space-between; /* Space title and close icon */
+  align-items: flex-start; /* Align items to top */
+}
+
+.modal-title-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modal-body {
+  background-color: #0f3250; /* Dark blue for body */
+  padding: 0 2rem 2rem 2rem; /* Existing padding */
+  color: #ffffff; /* White text for contrast */
+}
+
+.modal-footer {
+  background-color: #ffffff; /* White background for footer */
+  border-top: none !important; /* Remove default border */
+  padding: 1rem 2rem 1rem 2rem; /* Existing padding */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align content to the left */
+  justify-content: flex-start; /* Align content to the top */
+}
+
+/* Reduce spacing between footer elements */
+.cta-text,
+.cta-subtext {
+  margin: 0; /* Remove default paragraph margins */
+  padding: 0; /* Remove any padding */
+  line-height: 1.5; /* Tighten line height for closer stacking */
+}
+
+.cta-text {
+  margin-bottom: 0.5rem; /* Small gap between text and subtext */
+}
+
+/* Ensure text-warning and text-white are visible */
+.text-gold {
+  color: #c7a930 !important; /* Bootstrap warning color for visibility */
+}
+
+.text-white {
+  color: #ffffff; /* White text for body content */
+}
+
+/* Style the Font Awesome close icon */
+.modal-close-icon {
+  font-size: 2.5rem; /* Existing size */
+  cursor: pointer;
+  color: #ffffff; /* White icon for visibility */
+}
+
+/* Style for feature list */
+.modal-features li {
+  display: flex; /* Make list item a flex container */
+  align-items: flex-start; /* Align icon and text to top */
+  margin-bottom: 1rem; /* Space between list items */
+}
+
+.feature-icon {
+  width: 40px; /* Adjust icon size as needed */
+  height: 40px;
+  margin-right: 1rem; /* Space between icon and text */
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column; /* Stack span and p vertically */
+  flex: 1; /* Take remaining space */
+}
+
+.feature-text p {
+  margin: 0; /* Remove default paragraph margins */
+  padding-left: 0; /* Remove any padding */
+}
+
+/* modal styles ends here */
+
 /* Delon Apps Home Page */
 
 /* Delon Apps Home Page */
@@ -2875,6 +2981,13 @@ th {
     font-weight: 700;
     font-size: 32px; /* Reduced from 35px */
     line-height: 32px;
+  }
+
+  .subtitle-18 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 18px; /* Reduced from 35px */
+    line-height: 18px;
   }
 
   h5,
@@ -3312,6 +3425,55 @@ th {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .modal-dialog {
+    margin: 0 auto; /* Center horizontally */
+    max-width: 90%; /* Ensure modal doesn't exceed viewport */
+    width: 100%; /* Full width within margins */
+  }
+
+  .modal-content {
+    width: 100%; /* Override 90% to use full dialog width */
+    margin: 0; /* Remove any custom margins */
+  }
+
+  .modal-header {
+    padding: 1.5rem 1rem 0 1rem; /* Reduce padding for mobile */
+  }
+
+  .modal-body {
+    padding: 0 1rem 1.5rem 1rem; /* Reduce padding for mobile */
+  }
+
+  .modal-footer {
+    padding: 1rem; /* Consistent reduced padding */
+  }
+
+  .modal-title-main h4 {
+    font-size: 1.25rem; /* Slightly smaller title */
+  }
+
+  .modal-title-main h6 {
+    font-size: 0.9rem; /* Smaller subtitle */
+  }
+
+  .modal-text {
+    font-size: 0.85rem; /* Smaller text */
+  }
+
+  .modal-features li {
+    margin-bottom: 0.75rem; /* Reduce spacing between list items */
+  }
+
+  .feature-icon {
+    width: 30px; /* Match your mobile adjustment */
+    height: 30px;
+    margin-right: 0.75rem; /* Slightly less spacing */
+  }
+
+  .modal-close-icon {
+    font-size: 1.5rem; /* Match your mobile adjustment */
   }
 }
 
